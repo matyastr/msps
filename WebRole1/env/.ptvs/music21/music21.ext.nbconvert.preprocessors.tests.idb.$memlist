@@ -1,0 +1,10 @@
+test_extractoutput
+test_highlightmagics
+test_execute
+test_latex
+test_revealhelp
+test_clearoutput
+test_csshtmlheader
+test_svg2pdf
+base
+test_coalescestreams

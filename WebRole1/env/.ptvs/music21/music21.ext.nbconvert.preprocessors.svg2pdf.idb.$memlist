@@ -1,0 +1,11 @@
+cast_unicode_py2
+SVG2PDFPreprocessor
+base64
+Unicode
+subprocess
+ConvertFiguresPreprocessor
+os
+TemporaryDirectory
+INKSCAPE_APP
+io
+sys

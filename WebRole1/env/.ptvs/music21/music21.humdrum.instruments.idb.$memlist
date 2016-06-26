@@ -1,0 +1,9 @@
+music21
+humdrumInstruments
+humdrumInstrumentClassToInstrument
+fromHumdrumClass
+fromHumdrumInstrument
+HumdrumInstrumentException
+Test
+exceptions21
+unittest

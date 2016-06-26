@@ -1,0 +1,8 @@
+StdoutWriter
+tests
+stdout
+debug
+files
+FilesWriter
+base
+WriterBase

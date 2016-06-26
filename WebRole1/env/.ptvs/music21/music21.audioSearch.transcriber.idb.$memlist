@@ -1,0 +1,10 @@
+TestExternal
+_MOD
+monophonicStreamFromFile
+scale
+environment
+music21
+os
+runTranscribe
+environLocal
+unittest

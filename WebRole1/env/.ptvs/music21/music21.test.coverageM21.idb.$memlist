@@ -1,0 +1,5 @@
+stopCoverage
+exclude_lines
+omit_modules
+getCoverage
+six
