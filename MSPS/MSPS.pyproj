@@ -4,7 +4,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>44ed26db-cc1e-4f3c-ac95-c8a1503c23cb</ProjectGuid>
+    <ProjectGuid>dcddf275-4b34-498c-bc2f-0356690bebc8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <StartupFile>runserver.py</StartupFile>
@@ -18,7 +18,7 @@
     <PythonWsgiHandler>$(MSBuildProjectName).app</PythonWsgiHandler>
     <Name>MSPS</Name>
     <RootNamespace>MSPS</RootNamespace>
-    <InterpreterId>{9a66e741-24f8-41c8-9d18-6d6e6dc060f7}</InterpreterId>
+    <InterpreterId>{1dc47cb2-fee4-49ec-a3e4-09679cbec75c}</InterpreterId>
     <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -73,7 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
-      <Id>{9a66e741-24f8-41c8-9d18-6d6e6dc060f7}</Id>
+      <Id>{1dc47cb2-fee4-49ec-a3e4-09679cbec75c}</Id>
       <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
       <Version>3.5</Version>
       <Description>env (Python 3.5)</Description>
