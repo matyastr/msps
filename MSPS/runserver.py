@@ -1,5 +1,6 @@
 """
 This script runs the MSPS application using a development server.
+Main interaction point with the web service.
 """
 
 from os import environ

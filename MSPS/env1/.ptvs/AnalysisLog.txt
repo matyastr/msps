@@ -2198,3 +2198,879 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Micro
 2016-07-01T11:57:10: Saving group "C:\Code\MSPS\MSPS\env1\Lib\site-packages\_markerlib"
 2016-07-01T11:57:10: End of group "C:\Code\MSPS\MSPS\env1\Lib\site-packages\_markerlib"
 2016-07-01T11:57:10: Deleting 0 files
+
+2016-07-01T15:23:57: Start analysis
+2016-07-01T15:23:57: [WARNING] Library was set explicitly - skipping path detection
+2016-07-01T15:23:57: IncludeModulesFromModulePath = win32com
+2016-07-01T15:23:57: Deleting 0 files
+2016-07-01T15:23:57: astropy.CallDepth = 0
+2016-07-01T15:23:57: matplotlib.CallDepth = 3
+2016-07-01T15:23:57: pandas.CallDepth = 0
+2016-07-01T15:23:57: sympy.CallDepth = 0
+2016-07-01T15:23:57: Start group "C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21" with 430 files
+2016-07-01T15:24:00: Parsing "music21.articulations" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\articulations.py")
+2016-07-01T15:24:00: Parsing "music21.bar" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\bar.py")
+2016-07-01T15:24:00: Parsing "music21.base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\base.py")
+2016-07-01T15:24:00: Parsing "music21.beam" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\beam.py")
+2016-07-01T15:24:00: Parsing "music21.clef" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\clef.py")
+2016-07-01T15:24:00: Parsing "music21.configure" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\configure.py")
+2016-07-01T15:24:00: Parsing "music21.defaults" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\defaults.py")
+2016-07-01T15:24:00: Parsing "music21.derivation" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\derivation.py")
+2016-07-01T15:24:00: Parsing "music21.duration" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\duration.py")
+2016-07-01T15:24:00: Parsing "music21.dynamics" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\dynamics.py")
+2016-07-01T15:24:00: Parsing "music21.editorial" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\editorial.py")
+2016-07-01T15:24:00: Parsing "music21.environment" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\environment.py")
+2016-07-01T15:24:00: Parsing "music21.exceptions21" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\exceptions21.py")
+2016-07-01T15:24:00: Parsing "music21.expressions" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\expressions.py")
+2016-07-01T15:24:00: Parsing "music21.freezeThaw" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\freezeThaw.py")
+2016-07-01T15:24:00: Parsing "music21.graph" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\graph.py")
+2016-07-01T15:24:00: Parsing "music21.harmony" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\harmony.py")
+2016-07-01T15:24:00: Parsing "music21.instrument" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\instrument.py")
+2016-07-01T15:24:00: Parsing "music21.interval" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\interval.py")
+2016-07-01T15:24:00: Parsing "music21.key" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\key.py")
+2016-07-01T15:24:00: Parsing "music21.layout" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\layout.py")
+2016-07-01T15:24:00: Parsing "music21.meter" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\meter.py")
+2016-07-01T15:24:00: Parsing "music21.note" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\note.py")
+2016-07-01T15:24:00: Parsing "music21.pitch" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\pitch.py")
+2016-07-01T15:24:00: Parsing "music21.repeat" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\repeat.py")
+2016-07-01T15:24:00: Parsing "music21.roman" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\roman.py")
+2016-07-01T15:24:00: Parsing "music21.serial" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\serial.py")
+2016-07-01T15:24:00: Parsing "music21.sieve" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\sieve.py")
+2016-07-01T15:24:00: Parsing "music21.sites" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\sites.py")
+2016-07-01T15:24:00: Parsing "music21.spanner" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\spanner.py")
+2016-07-01T15:24:00: Parsing "music21.tempo" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\tempo.py")
+2016-07-01T15:24:00: Parsing "music21.text" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\text.py")
+2016-07-01T15:24:00: Parsing "music21.tie" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\tie.py")
+2016-07-01T15:24:00: Parsing "music21.tinyNotation" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\tinyNotation.py")
+2016-07-01T15:24:00: Parsing "music21.variant" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\variant.py")
+2016-07-01T15:24:00: Parsing "music21.voiceLeading" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\voiceLeading.py")
+2016-07-01T15:24:00: Parsing "music21.volume" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\volume.py")
+2016-07-01T15:24:00: Parsing "music21.xmlnode" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\xmlnode.py")
+2016-07-01T15:24:00: Parsing "music21._version" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\_version.py")
+2016-07-01T15:24:00: Parsing "music21" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\__init__.py")
+2016-07-01T15:24:00: Parsing "music21.abcFormat.testFiles" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\abcFormat\testFiles.py")
+2016-07-01T15:24:00: Parsing "music21.abcFormat.translate" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\abcFormat\translate.py")
+2016-07-01T15:24:00: Parsing "music21.abcFormat" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\abcFormat\__init__.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.chant" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\chant.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.contour" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\contour.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.medren" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\medren.py")
+2016-07-01T15:24:00: Parsing "music21.alpha" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\__init__.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.analysis.scoreDiff" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\analysis\scoreDiff.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.analysis.search" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\analysis\search.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.analysis" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\analysis\__init__.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.counterpoint.species" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\counterpoint\species.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.counterpoint" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\counterpoint\__init__.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.theoryAnalysis.theoryAnalyzer" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\theoryAnalysis\theoryAnalyzer.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.theoryAnalysis.theoryResult" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\theoryAnalysis\theoryResult.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.theoryAnalysis.wwnortonMGTA" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\theoryAnalysis\wwnortonMGTA.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.theoryAnalysis" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\theoryAnalysis\__init__.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.trecento.cadencebook" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\cadencebook.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.trecento.capua" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\capua.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.trecento.capuaProbabilities" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\capuaProbabilities.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.trecento.exceldiff" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\exceldiff.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.trecento.findSevs" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\findSevs.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.trecento.findTrecentoFragments" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\findTrecentoFragments.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.trecento.find_vatican1790" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\find_vatican1790.py")
+2016-07-01T15:24:00: Parsing "music21.alpha.trecento.notation" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\notation.py")
+2016-07-01T15:24:01: Parsing "music21.alpha.trecento.polyphonicSnippet" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\polyphonicSnippet.py")
+2016-07-01T15:24:01: Parsing "music21.alpha.trecento.quodJactatur" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\quodJactatur.py")
+2016-07-01T15:24:01: Parsing "music21.alpha.trecento.runTrecentoCadence" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\runTrecentoCadence.py")
+2016-07-01T15:24:01: Parsing "music21.alpha.trecento.tonality" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\tonality.py")
+2016-07-01T15:24:01: Parsing "music21.alpha.trecento.trecentoCadence" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\trecentoCadence.py")
+2016-07-01T15:24:01: Parsing "music21.alpha.trecento" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\trecento\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.alpha.webapps.apps" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\webapps\apps.py")
+2016-07-01T15:24:01: Parsing "music21.alpha.webapps.commands" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\webapps\commands.py")
+2016-07-01T15:24:01: Parsing "music21.alpha.webapps.templates" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\webapps\templates.py")
+2016-07-01T15:24:01: Parsing "music21.alpha.webapps" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\alpha\webapps\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.analysis.correlate" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\analysis\correlate.py")
+2016-07-01T15:24:01: Parsing "music21.analysis.discrete" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\analysis\discrete.py")
+2016-07-01T15:24:01: Parsing "music21.analysis.floatingKey" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\analysis\floatingKey.py")
+2016-07-01T15:24:01: Parsing "music21.analysis.metrical" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\analysis\metrical.py")
+2016-07-01T15:24:01: Parsing "music21.analysis.neoRiemannian" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\analysis\neoRiemannian.py")
+2016-07-01T15:24:01: Parsing "music21.analysis.patel" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\analysis\patel.py")
+2016-07-01T15:24:01: Parsing "music21.analysis.reduceChords" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\analysis\reduceChords.py")
+2016-07-01T15:24:01: Parsing "music21.analysis.reduceChordsOld" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\analysis\reduceChordsOld.py")
+2016-07-01T15:24:01: Parsing "music21.analysis.reduction" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\analysis\reduction.py")
+2016-07-01T15:24:01: Parsing "music21.analysis.windowed" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\analysis\windowed.py")
+2016-07-01T15:24:01: Parsing "music21.analysis" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\analysis\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.audioSearch.recording" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\audioSearch\recording.py")
+2016-07-01T15:24:01: Parsing "music21.audioSearch.scoreFollower" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\audioSearch\scoreFollower.py")
+2016-07-01T15:24:01: Parsing "music21.audioSearch.transcriber" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\audioSearch\transcriber.py")
+2016-07-01T15:24:01: Parsing "music21.audioSearch" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\audioSearch\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.braille.basic" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\braille\basic.py")
+2016-07-01T15:24:01: Parsing "music21.braille.examples" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\braille\examples.py")
+2016-07-01T15:24:01: Parsing "music21.braille.lookup" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\braille\lookup.py")
+2016-07-01T15:24:01: Parsing "music21.braille.segment" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\braille\segment.py")
+2016-07-01T15:24:01: Parsing "music21.braille.test" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\braille\test.py")
+2016-07-01T15:24:01: Parsing "music21.braille.text" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\braille\text.py")
+2016-07-01T15:24:01: Parsing "music21.braille.translate" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\braille\translate.py")
+2016-07-01T15:24:01: Parsing "music21.braille" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\braille\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.capella.fromCapellaXML" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\capella\fromCapellaXML.py")
+2016-07-01T15:24:01: Parsing "music21.capella" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\capella\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.chord.tables" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\chord\tables.py")
+2016-07-01T15:24:01: Parsing "music21.chord" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\chord\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.common.classTools" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\common\classTools.py")
+2016-07-01T15:24:01: Parsing "music21.common.decorators" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\common\decorators.py")
+2016-07-01T15:24:01: Parsing "music21.common.formats" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\common\formats.py")
+2016-07-01T15:24:01: Parsing "music21.common.numberFunc" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\common\numberFunc.py")
+2016-07-01T15:24:01: Parsing "music21.common.weakrefTools" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\common\weakrefTools.py")
+2016-07-01T15:24:01: Parsing "music21.common" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\common\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.converter.qmConverter" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\converter\qmConverter.py")
+2016-07-01T15:24:01: Parsing "music21.converter.subConverters" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\converter\subConverters.py")
+2016-07-01T15:24:01: Parsing "music21.converter" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\converter\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.corpus.chorales" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\corpus\chorales.py")
+2016-07-01T15:24:01: Parsing "music21.corpus.corpora" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\corpus\corpora.py")
+2016-07-01T15:24:01: Parsing "music21.corpus.testCorpus" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\corpus\testCorpus.py")
+2016-07-01T15:24:01: Parsing "music21.corpus.virtual" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\corpus\virtual.py")
+2016-07-01T15:24:01: Parsing "music21.corpus" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\corpus\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.demos.eschbeg" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\eschbeg.py")
+2016-07-01T15:24:01: Parsing "music21.demos.gatherAccidentals" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\gatherAccidentals.py")
+2016-07-01T15:24:01: Parsing "music21.demos.icmc2010" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\icmc2010.py")
+2016-07-01T15:24:01: Parsing "music21.demos.icmc2011" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\icmc2011.py")
+2016-07-01T15:24:01: Parsing "music21.demos.ismir2010" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\ismir2010.py")
+2016-07-01T15:24:01: Parsing "music21.demos.ismir2011" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\ismir2011.py")
+2016-07-01T15:24:01: Parsing "music21.demos.mgtaPart1" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\mgtaPart1.py")
+2016-07-01T15:24:01: Parsing "music21.demos.mgtaPart2" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\mgtaPart2.py")
+2016-07-01T15:24:01: Parsing "music21.demos.misc2010" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\misc2010.py")
+2016-07-01T15:24:01: Parsing "music21.demos.monteverdi" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\monteverdi.py")
+2016-07-01T15:24:01: Parsing "music21.demos.seaverOct2009" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\seaverOct2009.py")
+2016-07-01T15:24:01: Parsing "music21.demos.seaver_presentation_2008" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\seaver_presentation_2008.py")
+2016-07-01T15:24:01: Parsing "music21.demos.smt2010" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\smt2010.py")
+2016-07-01T15:24:01: Parsing "music21.demos.smt2011" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\smt2011.py")
+2016-07-01T15:24:01: Parsing "music21.demos" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.demos.audioSearchDemos.graphicalInterfaceGame" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\audioSearchDemos\graphicalInterfaceGame.py")
+2016-07-01T15:24:01: Parsing "music21.demos.audioSearchDemos.graphicalInterfaceSF" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\audioSearchDemos\graphicalInterfaceSF.py")
+2016-07-01T15:24:01: Parsing "music21.demos.audioSearchDemos.graphicalInterfaceTranscriber" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\audioSearchDemos\graphicalInterfaceTranscriber.py")
+2016-07-01T15:24:01: Parsing "music21.demos.audioSearchDemos.humanVScomputer" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\audioSearchDemos\humanVScomputer.py")
+2016-07-01T15:24:01: Parsing "music21.demos.audioSearchDemos.omrfollow" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\audioSearchDemos\omrfollow.py")
+2016-07-01T15:24:01: Parsing "music21.demos.audioSearchDemos.repetitionGame" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\audioSearchDemos\repetitionGame.py")
+2016-07-01T15:24:01: Parsing "music21.demos.audioSearchDemos" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\audioSearchDemos\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.demos.audioSearchDemos.scores" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\audioSearchDemos\scores\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.demos.bhadley.harmonyRealizer" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\bhadley\harmonyRealizer.py")
+2016-07-01T15:24:01: Parsing "music21.demos.bhadley.nips2011" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\bhadley\nips2011.py")
+2016-07-01T15:24:01: Parsing "music21.demos.bhadley" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\bhadley\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.demos.bhadley.mrjobaws.awsutility" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\bhadley\mrjobaws\awsutility.py")
+2016-07-01T15:24:01: Parsing "music21.demos.bhadley.mrjobaws.featureExtractorMRJOB" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\bhadley\mrjobaws\featureExtractorMRJOB.py")
+2016-07-01T15:24:01: Parsing "music21.demos.bhadley.mrjobaws" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\bhadley\mrjobaws\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.demos.composition.aug30" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\composition\aug30.py")
+2016-07-01T15:24:01: Parsing "music21.demos.composition.phasing" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\composition\phasing.py")
+2016-07-01T15:24:01: Parsing "music21.demos.composition.seeger" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\composition\seeger.py")
+2016-07-01T15:24:01: Parsing "music21.demos.composition" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\composition\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.demos.josquin.label_intervals" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\josquin\label_intervals.py")
+2016-07-01T15:24:01: Parsing "music21.demos.josquin" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\josquin\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.demos.trecento.largestAmbitus" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\trecento\largestAmbitus.py")
+2016-07-01T15:24:01: Parsing "music21.demos.trecento" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\demos\trecento\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.documentation.documenters" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\documentation\documenters.py")
+2016-07-01T15:24:01: Parsing "music21.documentation.extensions" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\documentation\extensions.py")
+2016-07-01T15:24:01: Parsing "music21.documentation.iterators" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\documentation\iterators.py")
+2016-07-01T15:24:01: Parsing "music21.documentation.make" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\documentation\make.py")
+2016-07-01T15:24:01: Parsing "music21.documentation.upload" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\documentation\upload.py")
+2016-07-01T15:24:01: Parsing "music21.documentation.writers" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\documentation\writers.py")
+2016-07-01T15:24:01: Parsing "music21.documentation" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\documentation\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.enum" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\enum.py")
+2016-07-01T15:24:01: Parsing "music21.ext.mock" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\mock.py")
+2016-07-01T15:24:01: Parsing "music21.ext.parmap" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\parmap.py")
+2016-07-01T15:24:01: Parsing "music21.ext.six" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\six.py")
+2016-07-01T15:24:01: Parsing "music21.ext.webcolors" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\webcolors.py")
+2016-07-01T15:24:01: Parsing "music21.ext" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.big5freq" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\big5freq.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.big5prober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\big5prober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.chardetect" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\chardetect.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.chardistribution" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\chardistribution.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.charsetgroupprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\charsetgroupprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.charsetprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\charsetprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.codingstatemachine" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\codingstatemachine.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.compat" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\compat.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.constants" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\constants.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.cp949prober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\cp949prober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.escprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\escprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.escsm" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\escsm.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.eucjpprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\eucjpprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.euckrfreq" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\euckrfreq.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.euckrprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\euckrprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.euctwfreq" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\euctwfreq.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.euctwprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\euctwprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.gb2312freq" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\gb2312freq.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.gb2312prober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\gb2312prober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.hebrewprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\hebrewprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.jisfreq" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\jisfreq.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.jpcntx" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\jpcntx.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.langbulgarianmodel" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\langbulgarianmodel.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.langcyrillicmodel" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\langcyrillicmodel.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.langgreekmodel" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\langgreekmodel.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.langhebrewmodel" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\langhebrewmodel.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.langhungarianmodel" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\langhungarianmodel.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.langthaimodel" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\langthaimodel.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.latin1prober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\latin1prober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.mbcharsetprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\mbcharsetprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.mbcsgroupprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\mbcsgroupprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.mbcssm" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\mbcssm.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.sbcharsetprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\sbcharsetprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.sbcsgroupprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\sbcsgroupprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.sjisprober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\sjisprober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.universaldetector" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\universaldetector.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet.utf8prober" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\utf8prober.py")
+2016-07-01T15:24:01: Parsing "music21.ext.chardet" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\chardet\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.jsonpickle.backend" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\jsonpickle\backend.py")
+2016-07-01T15:24:01: Parsing "music21.ext.jsonpickle.compat" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\jsonpickle\compat.py")
+2016-07-01T15:24:01: Parsing "music21.ext.jsonpickle.handlers" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\jsonpickle\handlers.py")
+2016-07-01T15:24:01: Parsing "music21.ext.jsonpickle.pickler" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\jsonpickle\pickler.py")
+2016-07-01T15:24:01: Parsing "music21.ext.jsonpickle.tags" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\jsonpickle\tags.py")
+2016-07-01T15:24:01: Parsing "music21.ext.jsonpickle.unpickler" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\jsonpickle\unpickler.py")
+2016-07-01T15:24:01: Parsing "music21.ext.jsonpickle.util" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\jsonpickle\util.py")
+2016-07-01T15:24:01: Parsing "music21.ext.jsonpickle.version" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\jsonpickle\version.py")
+2016-07-01T15:24:01: Parsing "music21.ext.jsonpickle" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\jsonpickle\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.jsonpickle.ext.numpy" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\jsonpickle\ext\numpy.py")
+2016-07-01T15:24:01: Parsing "music21.ext.jsonpickle.ext" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\jsonpickle\ext\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.nbconvertapp" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\nbconvertapp.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.export" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\export.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.exporter" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\exporter.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.html" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\html.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.latex" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\latex.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.markdown" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\markdown.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.notebook" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\notebook.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.pdf" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\pdf.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.python" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\python.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.rst" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\rst.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.script" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\script.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.slides" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\slides.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.templateexporter" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\templateexporter.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\base.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.cheese" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\cheese.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_export" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_export.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_exporter" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_exporter.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_html" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_html.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_latex" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_latex.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_markdown" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_markdown.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_notebook" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_notebook.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_pdf" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_pdf.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_python" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_python.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_rst" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_rst.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_script" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_script.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_slides" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_slides.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests.test_templateexporter" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\test_templateexporter.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.exporters.tests" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\exporters\tests\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.ansi" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\ansi.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.citation" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\citation.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.datatypefilter" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\datatypefilter.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.highlight" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\highlight.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.latex" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\latex.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.markdown" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\markdown.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.markdown_mistune" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\markdown_mistune.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.strings" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\strings.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.tests.test_ansi" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\tests\test_ansi.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.tests.test_citation" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\tests\test_citation.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.tests.test_datatypefilter" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\tests\test_datatypefilter.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.tests.test_highlight" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\tests\test_highlight.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.tests.test_latex" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\tests\test_latex.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.tests.test_markdown" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\tests\test_markdown.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.tests.test_strings" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\tests\test_strings.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.filters.tests" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\filters\tests\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.postprocessors.base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\postprocessors\base.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.postprocessors.serve" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\postprocessors\serve.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.postprocessors" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\postprocessors\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.postprocessors.tests.test_serve" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\postprocessors\tests\test_serve.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.postprocessors.tests" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\postprocessors\tests\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\base.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.clearoutput" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\clearoutput.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.coalescestreams" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\coalescestreams.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.convertfigures" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\convertfigures.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.csshtmlheader" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\csshtmlheader.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.execute" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\execute.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.extractoutput" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\extractoutput.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.highlightmagics" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\highlightmagics.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.latex" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\latex.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.revealhelp" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\revealhelp.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.svg2pdf" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\svg2pdf.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.tests.base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\tests\base.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.tests.test_clearoutput" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\tests\test_clearoutput.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.tests.test_coalescestreams" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\tests\test_coalescestreams.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.tests.test_csshtmlheader" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\tests\test_csshtmlheader.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.tests.test_execute" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\tests\test_execute.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.tests.test_extractoutput" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\tests\test_extractoutput.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.tests.test_highlightmagics" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\tests\test_highlightmagics.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.tests.test_latex" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\tests\test_latex.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.tests.test_revealhelp" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\tests\test_revealhelp.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.tests.test_svg2pdf" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\tests\test_svg2pdf.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.preprocessors.tests" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\preprocessors\tests\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.tests.base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\tests\base.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.tests.test_nbconvertapp" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\tests\test_nbconvertapp.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.tests" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\tests\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.utils.base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\utils\base.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.utils.exceptions" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\utils\exceptions.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.utils.lexers" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\utils\lexers.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.utils.pandoc" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\utils\pandoc.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.utils" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\utils\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.utils.tests.test_lexers" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\utils\tests\test_lexers.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.utils.tests.test_pandoc" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\utils\tests\test_pandoc.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.utils.tests" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\utils\tests\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.writers.base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\writers\base.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.writers.debug" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\writers\debug.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.writers.files" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\writers\files.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.writers.stdout" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\writers\stdout.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.writers" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\writers\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.writers.tests.test_debug" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\writers\tests\test_debug.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.writers.tests.test_files" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\writers\tests\test_files.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.writers.tests.test_stdout" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\writers\tests\test_stdout.py")
+2016-07-01T15:24:01: Parsing "music21.ext.nbconvert.writers.tests" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\nbconvert\writers\tests\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd.biffh" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\biffh.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd.book" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\book.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd.compdoc" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\compdoc.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd.formatting" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\formatting.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd.formula" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\formula.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd.info" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\info.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd.licences" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\licences.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd.sheet" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\sheet.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd.timemachine" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\timemachine.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd.xldate" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\xldate.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd.xlsx" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\xlsx.py")
+2016-07-01T15:24:01: Parsing "music21.ext.xlrd" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ext\xlrd\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.features.base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\features\base.py")
+2016-07-01T15:24:01: Parsing "music21.features.jSymbolic" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\features\jSymbolic.py")
+2016-07-01T15:24:01: Parsing "music21.features.native" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\features\native.py")
+2016-07-01T15:24:01: Parsing "music21.features" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\features\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.figuredBass.checker" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\figuredBass\checker.py")
+2016-07-01T15:24:01: Parsing "music21.figuredBass.examples" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\figuredBass\examples.py")
+2016-07-01T15:24:01: Parsing "music21.figuredBass.notation" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\figuredBass\notation.py")
+2016-07-01T15:24:01: Parsing "music21.figuredBass.possibility" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\figuredBass\possibility.py")
+2016-07-01T15:24:01: Parsing "music21.figuredBass.realizer" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\figuredBass\realizer.py")
+2016-07-01T15:24:01: Parsing "music21.figuredBass.realizerScale" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\figuredBass\realizerScale.py")
+2016-07-01T15:24:01: Parsing "music21.figuredBass.resolution" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\figuredBass\resolution.py")
+2016-07-01T15:24:01: Parsing "music21.figuredBass.rules" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\figuredBass\rules.py")
+2016-07-01T15:24:01: Parsing "music21.figuredBass.segment" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\figuredBass\segment.py")
+2016-07-01T15:24:01: Parsing "music21.figuredBass" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\figuredBass\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.humdrum.instruments" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\humdrum\instruments.py")
+2016-07-01T15:24:01: Parsing "music21.humdrum.questions" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\humdrum\questions.py")
+2016-07-01T15:24:01: Parsing "music21.humdrum.spineParser" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\humdrum\spineParser.py")
+2016-07-01T15:24:01: Parsing "music21.humdrum.testFiles" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\humdrum\testFiles.py")
+2016-07-01T15:24:01: Parsing "music21.humdrum" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\humdrum\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.ipython21.ipExtension" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ipython21\ipExtension.py")
+2016-07-01T15:24:01: Parsing "music21.ipython21.objects" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ipython21\objects.py")
+2016-07-01T15:24:01: Parsing "music21.ipython21" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\ipython21\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.languageExcerpts.instrumentLookup" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\languageExcerpts\instrumentLookup.py")
+2016-07-01T15:24:01: Parsing "music21.languageExcerpts.naturalLanguageObjects" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\languageExcerpts\naturalLanguageObjects.py")
+2016-07-01T15:24:01: Parsing "music21.languageExcerpts" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\languageExcerpts\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.lily.lilyObjects" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\lily\lilyObjects.py")
+2016-07-01T15:24:01: Parsing "music21.lily.translate" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\lily\translate.py")
+2016-07-01T15:24:01: Parsing "music21.lily" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\lily\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.mei.base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\mei\base.py")
+2016-07-01T15:24:01: Parsing "music21.mei.test_base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\mei\test_base.py")
+2016-07-01T15:24:01: Parsing "music21.mei" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\mei\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.metadata.bundles" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\metadata\bundles.py")
+2016-07-01T15:24:01: Parsing "music21.metadata.caching" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\metadata\caching.py")
+2016-07-01T15:24:01: Parsing "music21.metadata.primitives" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\metadata\primitives.py")
+2016-07-01T15:24:01: Parsing "music21.metadata.testMetadata" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\metadata\testMetadata.py")
+2016-07-01T15:24:01: Parsing "music21.metadata" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\metadata\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.midi.percussion" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\midi\percussion.py")
+2016-07-01T15:24:01: Parsing "music21.midi.realtime" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\midi\realtime.py")
+2016-07-01T15:24:01: Parsing "music21.midi.translate" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\midi\translate.py")
+2016-07-01T15:24:01: Parsing "music21.midi" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\midi\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.musedata.base40" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musedata\base40.py")
+2016-07-01T15:24:01: Parsing "music21.musedata.translate" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musedata\translate.py")
+2016-07-01T15:24:01: Parsing "music21.musedata" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musedata\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.musedata.testPrimitive" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musedata\testPrimitive\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.musedata.testPrimitive.test01" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musedata\testPrimitive\test01\__init__.py")
+2016-07-01T15:24:01: Parsing "music21.musicxml.fromMxObjects" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musicxml\fromMxObjects.py")
+2016-07-01T15:24:02: Parsing "music21.musicxml.m21ToString" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musicxml\m21ToString.py")
+2016-07-01T15:24:02: Parsing "music21.musicxml.m21ToXml" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musicxml\m21ToXml.py")
+2016-07-01T15:24:02: Parsing "music21.musicxml.mxObjects" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musicxml\mxObjects.py")
+2016-07-01T15:24:02: Parsing "music21.musicxml.testFiles" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musicxml\testFiles.py")
+2016-07-01T15:24:02: Parsing "music21.musicxml.testPrimitive" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musicxml\testPrimitive.py")
+2016-07-01T15:24:02: Parsing "music21.musicxml.toMxObjects" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musicxml\toMxObjects.py")
+2016-07-01T15:24:02: Parsing "music21.musicxml.xmlHandler" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musicxml\xmlHandler.py")
+2016-07-01T15:24:02: Parsing "music21.musicxml.xmlObjects" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musicxml\xmlObjects.py")
+2016-07-01T15:24:02: Parsing "music21.musicxml.xmlToM21" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musicxml\xmlToM21.py")
+2016-07-01T15:24:02: Parsing "music21.musicxml" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\musicxml\__init__.py")
+2016-07-01T15:24:02: Parsing "music21.noteworthy.binaryTranslate" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\noteworthy\binaryTranslate.py")
+2016-07-01T15:24:02: Parsing "music21.noteworthy.translate" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\noteworthy\translate.py")
+2016-07-01T15:24:02: Parsing "music21.noteworthy" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\noteworthy\__init__.py")
+2016-07-01T15:24:02: Parsing "music21.omr.correctors" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\omr\correctors.py")
+2016-07-01T15:24:02: Parsing "music21.omr.evaluators" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\omr\evaluators.py")
+2016-07-01T15:24:02: Parsing "music21.omr" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\omr\__init__.py")
+2016-07-01T15:24:02: Parsing "music21.romanText.clercqTemperley" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\romanText\clercqTemperley.py")
+2016-07-01T15:24:02: Parsing "music21.romanText.rtObjects" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\romanText\rtObjects.py")
+2016-07-01T15:24:02: Parsing "music21.romanText.testFiles" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\romanText\testFiles.py")
+2016-07-01T15:24:02: Parsing "music21.romanText.translate" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\romanText\translate.py")
+2016-07-01T15:24:02: Parsing "music21.romanText" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\romanText\__init__.py")
+2016-07-01T15:24:02: Parsing "music21.scale.intervalNetwork" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\scale\intervalNetwork.py")
+2016-07-01T15:24:02: Parsing "music21.scale" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\scale\__init__.py")
+2016-07-01T15:24:02: Parsing "music21.scale.scala" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\scale\scala\__init__.py")
+2016-07-01T15:24:02: Parsing "music21.scale.scala.scl" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\scale\scala\scl\__init__.py")
+2016-07-01T15:24:02: Parsing "music21.search.base" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\search\base.py")
+2016-07-01T15:24:02: Parsing "music21.search.lyrics" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\search\lyrics.py")
+2016-07-01T15:24:02: Parsing "music21.search.segment" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\search\segment.py")
+2016-07-01T15:24:02: Parsing "music21.search" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\search\__init__.py")
+2016-07-01T15:24:02: Parsing "music21.stream.core" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\stream\core.py")
+2016-07-01T15:24:02: Parsing "music21.stream.filter" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\stream\filter.py")
+2016-07-01T15:24:02: Parsing "music21.stream.iterator" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\stream\iterator.py")
+2016-07-01T15:24:02: Parsing "music21.stream.makeNotation" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\stream\makeNotation.py")
+2016-07-01T15:24:02: Parsing "music21.stream.streamStatus" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\stream\streamStatus.py")
+2016-07-01T15:24:02: Parsing "music21.stream" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\stream\__init__.py")
+2016-07-01T15:24:02: Parsing "music21.test.commonTest" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\commonTest.py")
+2016-07-01T15:24:02: Parsing "music21.test.coverageM21" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\coverageM21.py")
+2016-07-01T15:24:02: Parsing "music21.test.dedent" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\dedent.py")
+2016-07-01T15:24:02: Parsing "music21.test.findNonUTF8" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\findNonUTF8.py")
+2016-07-01T15:24:02: Parsing "music21.test.memoryUsage" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\memoryUsage.py")
+2016-07-01T15:24:02: Parsing "music21.test.multiprocessTest" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\multiprocessTest.py")
+2016-07-01T15:24:02: Parsing "music21.test.testDefault" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\testDefault.py")
+2016-07-01T15:24:02: Parsing "music21.test.testDocumentation" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\testDocumentation.py")
+2016-07-01T15:24:02: Parsing "music21.test.testExternal" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\testExternal.py")
+2016-07-01T15:24:02: Parsing "music21.test.testLint" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\testLint.py")
+2016-07-01T15:24:02: Parsing "music21.test.testPerformance" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\testPerformance.py")
+2016-07-01T15:24:02: Parsing "music21.test.testRunner" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\testRunner.py")
+2016-07-01T15:24:02: Parsing "music21.test.testSerialization" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\testSerialization.py")
+2016-07-01T15:24:02: Parsing "music21.test.testSingleCoreAll" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\testSingleCoreAll.py")
+2016-07-01T15:24:02: Parsing "music21.test.testStream" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\testStream.py")
+2016-07-01T15:24:02: Parsing "music21.test.timeGraphImportStar" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\timeGraphImportStar.py")
+2016-07-01T15:24:02: Parsing "music21.test.timeGraphs" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\timeGraphs.py")
+2016-07-01T15:24:02: Parsing "music21.test.toggleDebug" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\toggleDebug.py")
+2016-07-01T15:24:02: Parsing "music21.test.treeYield" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\treeYield.py")
+2016-07-01T15:24:02: Parsing "music21.test" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\test\__init__.py")
+2016-07-01T15:24:02: Parsing "music21.timespans.analysis" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\timespans\analysis.py")
+2016-07-01T15:24:02: Parsing "music21.timespans.node" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\timespans\node.py")
+2016-07-01T15:24:02: Parsing "music21.timespans.spans" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\timespans\spans.py")
+2016-07-01T15:24:02: Parsing "music21.timespans.trees" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\timespans\trees.py")
+2016-07-01T15:24:02: Parsing "music21.timespans.verticality" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\timespans\verticality.py")
+2016-07-01T15:24:02: Parsing "music21.timespans" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\timespans\__init__.py")
+2016-07-01T15:24:02: Parsing "music21.vexflow.toMusic21j" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\vexflow\toMusic21j.py")
+2016-07-01T15:24:02: Parsing "music21.vexflow" ("C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21\vexflow\__init__.py")
+2016-07-01T15:24:02: Parsing complete
+2016-07-01T15:24:02: Analyzing "music21.articulations"
+2016-07-01T15:24:02: Analyzing "music21.bar"
+2016-07-01T15:24:02: Analyzing "music21.base"
+2016-07-01T15:24:02: Analyzing "music21.beam"
+2016-07-01T15:24:02: Analyzing "music21.clef"
+2016-07-01T15:24:02: Analyzing "music21.configure"
+2016-07-01T15:24:02: Analyzing "music21.defaults"
+2016-07-01T15:24:02: Analyzing "music21.derivation"
+2016-07-01T15:24:02: Analyzing "music21.duration"
+2016-07-01T15:24:02: Analyzing "music21.dynamics"
+2016-07-01T15:24:02: Analyzing "music21.editorial"
+2016-07-01T15:24:02: Analyzing "music21.environment"
+2016-07-01T15:24:02: Analyzing "music21.exceptions21"
+2016-07-01T15:24:02: Analyzing "music21.expressions"
+2016-07-01T15:24:02: Analyzing "music21.freezeThaw"
+2016-07-01T15:24:02: Analyzing "music21.graph"
+2016-07-01T15:24:02: Analyzing "music21.harmony"
+2016-07-01T15:24:02: Analyzing "music21.instrument"
+2016-07-01T15:24:02: Analyzing "music21.interval"
+2016-07-01T15:24:02: Analyzing "music21.key"
+2016-07-01T15:24:02: Analyzing "music21.layout"
+2016-07-01T15:24:02: Analyzing "music21.meter"
+2016-07-01T15:24:02: Analyzing "music21.note"
+2016-07-01T15:24:02: Analyzing "music21.pitch"
+2016-07-01T15:24:02: Analyzing "music21.repeat"
+2016-07-01T15:24:02: Analyzing "music21.roman"
+2016-07-01T15:24:02: Analyzing "music21.serial"
+2016-07-01T15:24:02: Analyzing "music21.sieve"
+2016-07-01T15:24:02: Analyzing "music21.sites"
+2016-07-01T15:24:02: Analyzing "music21.spanner"
+2016-07-01T15:24:02: Analyzing "music21.tempo"
+2016-07-01T15:24:02: Analyzing "music21.text"
+2016-07-01T15:24:02: Analyzing "music21.tie"
+2016-07-01T15:24:02: Analyzing "music21.tinyNotation"
+2016-07-01T15:24:02: Analyzing "music21.variant"
+2016-07-01T15:24:02: Analyzing "music21.voiceLeading"
+2016-07-01T15:24:02: Analyzing "music21.volume"
+2016-07-01T15:24:02: Analyzing "music21.xmlnode"
+2016-07-01T15:24:02: Analyzing "music21._version"
+2016-07-01T15:24:02: Analyzing "music21"
+2016-07-01T15:24:02: Analyzing "music21.abcFormat.testFiles"
+2016-07-01T15:24:02: Analyzing "music21.abcFormat.translate"
+2016-07-01T15:24:02: Analyzing "music21.abcFormat"
+2016-07-01T15:24:02: Analyzing "music21.alpha.chant"
+2016-07-01T15:24:02: Analyzing "music21.alpha.contour"
+2016-07-01T15:24:02: Analyzing "music21.alpha.medren"
+2016-07-01T15:24:02: Analyzing "music21.alpha"
+2016-07-01T15:24:02: Analyzing "music21.alpha.analysis.scoreDiff"
+2016-07-01T15:24:02: Analyzing "music21.alpha.analysis.search"
+2016-07-01T15:24:02: Analyzing "music21.alpha.analysis"
+2016-07-01T15:24:02: Analyzing "music21.alpha.counterpoint.species"
+2016-07-01T15:24:02: Analyzing "music21.alpha.counterpoint"
+2016-07-01T15:24:02: Analyzing "music21.alpha.theoryAnalysis.theoryAnalyzer"
+2016-07-01T15:24:02: Analyzing "music21.alpha.theoryAnalysis.theoryResult"
+2016-07-01T15:24:02: Analyzing "music21.alpha.theoryAnalysis.wwnortonMGTA"
+2016-07-01T15:24:02: Analyzing "music21.alpha.theoryAnalysis"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.cadencebook"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.capua"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.capuaProbabilities"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.exceldiff"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.findSevs"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.findTrecentoFragments"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.find_vatican1790"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.notation"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.polyphonicSnippet"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.quodJactatur"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.runTrecentoCadence"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.tonality"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento.trecentoCadence"
+2016-07-01T15:24:02: Analyzing "music21.alpha.trecento"
+2016-07-01T15:24:02: Analyzing "music21.alpha.webapps.apps"
+2016-07-01T15:24:02: Analyzing "music21.alpha.webapps.commands"
+2016-07-01T15:24:02: Analyzing "music21.alpha.webapps.templates"
+2016-07-01T15:24:02: Analyzing "music21.alpha.webapps"
+2016-07-01T15:24:02: Analyzing "music21.analysis.correlate"
+2016-07-01T15:24:02: Analyzing "music21.analysis.discrete"
+2016-07-01T15:24:02: Analyzing "music21.analysis.floatingKey"
+2016-07-01T15:24:02: Analyzing "music21.analysis.metrical"
+2016-07-01T15:24:02: Analyzing "music21.analysis.neoRiemannian"
+2016-07-01T15:24:02: Analyzing "music21.analysis.patel"
+2016-07-01T15:24:02: Analyzing "music21.analysis.reduceChords"
+2016-07-01T15:24:02: Analyzing "music21.analysis.reduceChordsOld"
+2016-07-01T15:24:02: Analyzing "music21.analysis.reduction"
+2016-07-01T15:24:02: Analyzing "music21.analysis.windowed"
+2016-07-01T15:24:02: Analyzing "music21.analysis"
+2016-07-01T15:24:02: Analyzing "music21.audioSearch.recording"
+2016-07-01T15:24:02: Analyzing "music21.audioSearch.scoreFollower"
+2016-07-01T15:24:02: Analyzing "music21.audioSearch.transcriber"
+2016-07-01T15:24:02: Analyzing "music21.audioSearch"
+2016-07-01T15:24:02: Analyzing "music21.braille.basic"
+2016-07-01T15:24:02: Analyzing "music21.braille.examples"
+2016-07-01T15:24:02: Analyzing "music21.braille.lookup"
+2016-07-01T15:24:02: Analyzing "music21.braille.segment"
+2016-07-01T15:24:02: Analyzing "music21.braille.test"
+2016-07-01T15:24:02: Analyzing "music21.braille.text"
+2016-07-01T15:24:02: Analyzing "music21.braille.translate"
+2016-07-01T15:24:02: Analyzing "music21.braille"
+2016-07-01T15:24:02: Analyzing "music21.capella.fromCapellaXML"
+2016-07-01T15:24:02: Analyzing "music21.capella"
+2016-07-01T15:24:02: Analyzing "music21.chord.tables"
+2016-07-01T15:24:02: Analyzing "music21.chord"
+2016-07-01T15:24:02: Analyzing "music21.common.classTools"
+2016-07-01T15:24:02: Analyzing "music21.common.decorators"
+2016-07-01T15:24:02: Analyzing "music21.common.formats"
+2016-07-01T15:24:02: Analyzing "music21.common.numberFunc"
+2016-07-01T15:24:02: Analyzing "music21.common.weakrefTools"
+2016-07-01T15:24:02: Analyzing "music21.common"
+2016-07-01T15:24:02: Analyzing "music21.converter.qmConverter"
+2016-07-01T15:24:02: Analyzing "music21.converter.subConverters"
+2016-07-01T15:24:02: Analyzing "music21.converter"
+2016-07-01T15:24:02: Analyzing "music21.corpus.chorales"
+2016-07-01T15:24:02: Analyzing "music21.corpus.corpora"
+2016-07-01T15:24:02: Analyzing "music21.corpus.testCorpus"
+2016-07-01T15:24:02: Analyzing "music21.corpus.virtual"
+2016-07-01T15:24:02: Analyzing "music21.corpus"
+2016-07-01T15:24:02: Analyzing "music21.demos.eschbeg"
+2016-07-01T15:24:02: Analyzing "music21.demos.gatherAccidentals"
+2016-07-01T15:24:02: Analyzing "music21.demos.icmc2010"
+2016-07-01T15:24:02: Analyzing "music21.demos.icmc2011"
+2016-07-01T15:24:02: Analyzing "music21.demos.ismir2010"
+2016-07-01T15:24:02: Analyzing "music21.demos.ismir2011"
+2016-07-01T15:24:02: Analyzing "music21.demos.mgtaPart1"
+2016-07-01T15:24:02: Analyzing "music21.demos.mgtaPart2"
+2016-07-01T15:24:02: Analyzing "music21.demos.misc2010"
+2016-07-01T15:24:02: Analyzing "music21.demos.monteverdi"
+2016-07-01T15:24:02: Analyzing "music21.demos.seaverOct2009"
+2016-07-01T15:24:02: Analyzing "music21.demos.seaver_presentation_2008"
+2016-07-01T15:24:02: Analyzing "music21.demos.smt2010"
+2016-07-01T15:24:02: Analyzing "music21.demos.smt2011"
+2016-07-01T15:24:02: Analyzing "music21.demos"
+2016-07-01T15:24:02: Analyzing "music21.demos.audioSearchDemos.graphicalInterfaceGame"
+2016-07-01T15:24:02: Analyzing "music21.demos.audioSearchDemos.graphicalInterfaceSF"
+2016-07-01T15:24:02: Analyzing "music21.demos.audioSearchDemos.graphicalInterfaceTranscriber"
+2016-07-01T15:24:02: Analyzing "music21.demos.audioSearchDemos.humanVScomputer"
+2016-07-01T15:24:02: Analyzing "music21.demos.audioSearchDemos.omrfollow"
+2016-07-01T15:24:02: Analyzing "music21.demos.audioSearchDemos.repetitionGame"
+2016-07-01T15:24:02: Analyzing "music21.demos.audioSearchDemos"
+2016-07-01T15:24:02: Analyzing "music21.demos.audioSearchDemos.scores"
+2016-07-01T15:24:02: Analyzing "music21.demos.bhadley.harmonyRealizer"
+2016-07-01T15:24:02: Analyzing "music21.demos.bhadley.nips2011"
+2016-07-01T15:24:02: Analyzing "music21.demos.bhadley"
+2016-07-01T15:24:02: Analyzing "music21.demos.bhadley.mrjobaws.awsutility"
+2016-07-01T15:24:02: Analyzing "music21.demos.bhadley.mrjobaws.featureExtractorMRJOB"
+2016-07-01T15:24:02: Analyzing "music21.demos.bhadley.mrjobaws"
+2016-07-01T15:24:02: Analyzing "music21.demos.composition.aug30"
+2016-07-01T15:24:02: Analyzing "music21.demos.composition.phasing"
+2016-07-01T15:24:02: Analyzing "music21.demos.composition.seeger"
+2016-07-01T15:24:02: Analyzing "music21.demos.composition"
+2016-07-01T15:24:02: Analyzing "music21.demos.josquin.label_intervals"
+2016-07-01T15:24:02: Analyzing "music21.demos.josquin"
+2016-07-01T15:24:02: Analyzing "music21.demos.trecento.largestAmbitus"
+2016-07-01T15:24:02: Analyzing "music21.demos.trecento"
+2016-07-01T15:24:02: Analyzing "music21.documentation.documenters"
+2016-07-01T15:24:02: Analyzing "music21.documentation.extensions"
+2016-07-01T15:24:02: Analyzing "music21.documentation.iterators"
+2016-07-01T15:24:02: Analyzing "music21.documentation.make"
+2016-07-01T15:24:02: Analyzing "music21.documentation.upload"
+2016-07-01T15:24:02: Analyzing "music21.documentation.writers"
+2016-07-01T15:24:02: Analyzing "music21.documentation"
+2016-07-01T15:24:02: Analyzing "music21.ext.enum"
+2016-07-01T15:24:02: Analyzing "music21.ext.mock"
+2016-07-01T15:24:02: Analyzing "music21.ext.parmap"
+2016-07-01T15:24:02: Analyzing "music21.ext.six"
+2016-07-01T15:24:02: Analyzing "music21.ext.webcolors"
+2016-07-01T15:24:02: Analyzing "music21.ext"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.big5freq"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.big5prober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.chardetect"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.chardistribution"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.charsetgroupprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.charsetprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.codingstatemachine"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.compat"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.constants"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.cp949prober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.escprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.escsm"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.eucjpprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.euckrfreq"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.euckrprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.euctwfreq"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.euctwprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.gb2312freq"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.gb2312prober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.hebrewprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.jisfreq"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.jpcntx"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.langbulgarianmodel"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.langcyrillicmodel"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.langgreekmodel"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.langhebrewmodel"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.langhungarianmodel"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.langthaimodel"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.latin1prober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.mbcharsetprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.mbcsgroupprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.mbcssm"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.sbcharsetprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.sbcsgroupprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.sjisprober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.universaldetector"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet.utf8prober"
+2016-07-01T15:24:02: Analyzing "music21.ext.chardet"
+2016-07-01T15:24:02: Analyzing "music21.ext.jsonpickle.backend"
+2016-07-01T15:24:02: Analyzing "music21.ext.jsonpickle.compat"
+2016-07-01T15:24:02: Analyzing "music21.ext.jsonpickle.handlers"
+2016-07-01T15:24:02: Analyzing "music21.ext.jsonpickle.pickler"
+2016-07-01T15:24:02: Analyzing "music21.ext.jsonpickle.tags"
+2016-07-01T15:24:02: Analyzing "music21.ext.jsonpickle.unpickler"
+2016-07-01T15:24:02: Analyzing "music21.ext.jsonpickle.util"
+2016-07-01T15:24:02: Analyzing "music21.ext.jsonpickle.version"
+2016-07-01T15:24:02: Analyzing "music21.ext.jsonpickle"
+2016-07-01T15:24:02: Analyzing "music21.ext.jsonpickle.ext.numpy"
+2016-07-01T15:24:02: Analyzing "music21.ext.jsonpickle.ext"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.nbconvertapp"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.export"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.exporter"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.html"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.latex"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.markdown"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.notebook"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.pdf"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.python"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.rst"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.script"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.slides"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.templateexporter"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.base"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.cheese"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_export"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_exporter"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_html"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_latex"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_markdown"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_notebook"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_pdf"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_python"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_rst"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_script"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_slides"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests.test_templateexporter"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.exporters.tests"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.ansi"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.citation"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.datatypefilter"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.highlight"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.latex"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.markdown"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.markdown_mistune"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.strings"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.tests.test_ansi"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.tests.test_citation"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.tests.test_datatypefilter"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.tests.test_highlight"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.tests.test_latex"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.tests.test_markdown"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.tests.test_strings"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.filters.tests"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.postprocessors.base"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.postprocessors.serve"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.postprocessors"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.postprocessors.tests.test_serve"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.postprocessors.tests"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.base"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.clearoutput"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.coalescestreams"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.convertfigures"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.csshtmlheader"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.execute"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.extractoutput"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.highlightmagics"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.latex"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.revealhelp"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.svg2pdf"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.tests.base"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.tests.test_clearoutput"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.tests.test_coalescestreams"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.tests.test_csshtmlheader"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.tests.test_execute"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.tests.test_extractoutput"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.tests.test_highlightmagics"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.tests.test_latex"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.tests.test_revealhelp"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.tests.test_svg2pdf"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.preprocessors.tests"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.tests.base"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.tests.test_nbconvertapp"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.tests"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.utils.base"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.utils.exceptions"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.utils.lexers"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.utils.pandoc"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.utils"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.utils.tests.test_lexers"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.utils.tests.test_pandoc"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.utils.tests"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.writers.base"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.writers.debug"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.writers.files"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.writers.stdout"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.writers"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.writers.tests.test_debug"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.writers.tests.test_files"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.writers.tests.test_stdout"
+2016-07-01T15:24:02: Analyzing "music21.ext.nbconvert.writers.tests"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd.biffh"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd.book"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd.compdoc"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd.formatting"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd.formula"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd.info"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd.licences"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd.sheet"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd.timemachine"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd.xldate"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd.xlsx"
+2016-07-01T15:24:02: Analyzing "music21.ext.xlrd"
+2016-07-01T15:24:02: Analyzing "music21.features.base"
+2016-07-01T15:24:02: Analyzing "music21.features.jSymbolic"
+2016-07-01T15:24:02: Analyzing "music21.features.native"
+2016-07-01T15:24:02: Analyzing "music21.features"
+2016-07-01T15:24:02: Analyzing "music21.figuredBass.checker"
+2016-07-01T15:24:02: Analyzing "music21.figuredBass.examples"
+2016-07-01T15:24:02: Analyzing "music21.figuredBass.notation"
+2016-07-01T15:24:02: Analyzing "music21.figuredBass.possibility"
+2016-07-01T15:24:02: Analyzing "music21.figuredBass.realizer"
+2016-07-01T15:24:02: Analyzing "music21.figuredBass.realizerScale"
+2016-07-01T15:24:02: Analyzing "music21.figuredBass.resolution"
+2016-07-01T15:24:02: Analyzing "music21.figuredBass.rules"
+2016-07-01T15:24:02: Analyzing "music21.figuredBass.segment"
+2016-07-01T15:24:02: Analyzing "music21.figuredBass"
+2016-07-01T15:24:02: Analyzing "music21.humdrum.instruments"
+2016-07-01T15:24:02: Analyzing "music21.humdrum.questions"
+2016-07-01T15:24:02: Analyzing "music21.humdrum.spineParser"
+2016-07-01T15:24:02: Analyzing "music21.humdrum.testFiles"
+2016-07-01T15:24:02: Analyzing "music21.humdrum"
+2016-07-01T15:24:02: Analyzing "music21.ipython21.ipExtension"
+2016-07-01T15:24:02: Analyzing "music21.ipython21.objects"
+2016-07-01T15:24:02: Analyzing "music21.ipython21"
+2016-07-01T15:24:02: Analyzing "music21.languageExcerpts.instrumentLookup"
+2016-07-01T15:24:02: Analyzing "music21.languageExcerpts.naturalLanguageObjects"
+2016-07-01T15:24:02: Analyzing "music21.languageExcerpts"
+2016-07-01T15:24:02: Analyzing "music21.lily.lilyObjects"
+2016-07-01T15:24:02: Analyzing "music21.lily.translate"
+2016-07-01T15:24:02: Analyzing "music21.lily"
+2016-07-01T15:24:02: Analyzing "music21.mei.base"
+2016-07-01T15:24:02: Analyzing "music21.mei.test_base"
+2016-07-01T15:24:02: Analyzing "music21.mei"
+2016-07-01T15:24:02: Analyzing "music21.metadata.bundles"
+2016-07-01T15:24:02: Analyzing "music21.metadata.caching"
+2016-07-01T15:24:02: Analyzing "music21.metadata.primitives"
+2016-07-01T15:24:02: Analyzing "music21.metadata.testMetadata"
+2016-07-01T15:24:02: Analyzing "music21.metadata"
+2016-07-01T15:24:02: Analyzing "music21.midi.percussion"
+2016-07-01T15:24:02: Analyzing "music21.midi.realtime"
+2016-07-01T15:24:02: Analyzing "music21.midi.translate"
+2016-07-01T15:24:02: Analyzing "music21.midi"
+2016-07-01T15:24:02: Analyzing "music21.musedata.base40"
+2016-07-01T15:24:02: Analyzing "music21.musedata.translate"
+2016-07-01T15:24:02: Analyzing "music21.musedata"
+2016-07-01T15:24:02: Analyzing "music21.musedata.testPrimitive"
+2016-07-01T15:24:02: Analyzing "music21.musedata.testPrimitive.test01"
+2016-07-01T15:24:02: Analyzing "music21.musicxml.fromMxObjects"
+2016-07-01T15:24:02: Analyzing "music21.musicxml.m21ToString"
+2016-07-01T15:24:02: Analyzing "music21.musicxml.m21ToXml"
+2016-07-01T15:24:02: Analyzing "music21.musicxml.mxObjects"
+2016-07-01T15:24:02: Analyzing "music21.musicxml.testFiles"
+2016-07-01T15:24:02: Analyzing "music21.musicxml.testPrimitive"
+2016-07-01T15:24:02: Analyzing "music21.musicxml.toMxObjects"
+2016-07-01T15:24:02: Analyzing "music21.musicxml.xmlHandler"
+2016-07-01T15:24:02: Analyzing "music21.musicxml.xmlObjects"
+2016-07-01T15:24:02: Analyzing "music21.musicxml.xmlToM21"
+2016-07-01T15:24:02: Analyzing "music21.musicxml"
+2016-07-01T15:24:02: Analyzing "music21.noteworthy.binaryTranslate"
+2016-07-01T15:24:02: Analyzing "music21.noteworthy.translate"
+2016-07-01T15:24:02: Analyzing "music21.noteworthy"
+2016-07-01T15:24:02: Analyzing "music21.omr.correctors"
+2016-07-01T15:24:02: Analyzing "music21.omr.evaluators"
+2016-07-01T15:24:02: Analyzing "music21.omr"
+2016-07-01T15:24:02: Analyzing "music21.romanText.clercqTemperley"
+2016-07-01T15:24:02: Analyzing "music21.romanText.rtObjects"
+2016-07-01T15:24:02: Analyzing "music21.romanText.testFiles"
+2016-07-01T15:24:02: Analyzing "music21.romanText.translate"
+2016-07-01T15:24:02: Analyzing "music21.romanText"
+2016-07-01T15:24:02: Analyzing "music21.scale.intervalNetwork"
+2016-07-01T15:24:02: Analyzing "music21.scale"
+2016-07-01T15:24:02: Analyzing "music21.scale.scala"
+2016-07-01T15:24:02: Analyzing "music21.scale.scala.scl"
+2016-07-01T15:24:02: Analyzing "music21.search.base"
+2016-07-01T15:24:02: Analyzing "music21.search.lyrics"
+2016-07-01T15:24:02: Analyzing "music21.search.segment"
+2016-07-01T15:24:02: Analyzing "music21.search"
+2016-07-01T15:24:02: Analyzing "music21.stream.core"
+2016-07-01T15:24:02: Analyzing "music21.stream.filter"
+2016-07-01T15:24:02: Analyzing "music21.stream.iterator"
+2016-07-01T15:24:02: Analyzing "music21.stream.makeNotation"
+2016-07-01T15:24:02: Analyzing "music21.stream.streamStatus"
+2016-07-01T15:24:02: Analyzing "music21.stream"
+2016-07-01T15:24:02: Analyzing "music21.test.commonTest"
+2016-07-01T15:24:02: Analyzing "music21.test.coverageM21"
+2016-07-01T15:24:02: Analyzing "music21.test.dedent"
+2016-07-01T15:24:02: Analyzing "music21.test.findNonUTF8"
+2016-07-01T15:24:02: Analyzing "music21.test.memoryUsage"
+2016-07-01T15:24:02: Analyzing "music21.test.multiprocessTest"
+2016-07-01T15:24:02: Analyzing "music21.test.testDefault"
+2016-07-01T15:24:02: Analyzing "music21.test.testDocumentation"
+2016-07-01T15:24:02: Analyzing "music21.test.testExternal"
+2016-07-01T15:24:02: Analyzing "music21.test.testLint"
+2016-07-01T15:24:02: Analyzing "music21.test.testPerformance"
+2016-07-01T15:24:02: Analyzing "music21.test.testRunner"
+2016-07-01T15:24:02: Analyzing "music21.test.testSerialization"
+2016-07-01T15:24:02: Analyzing "music21.test.testSingleCoreAll"
+2016-07-01T15:24:02: Analyzing "music21.test.testStream"
+2016-07-01T15:24:02: Analyzing "music21.test.timeGraphImportStar"
+2016-07-01T15:24:02: Analyzing "music21.test.timeGraphs"
+2016-07-01T15:24:02: Analyzing "music21.test.toggleDebug"
+2016-07-01T15:24:02: Analyzing "music21.test.treeYield"
+2016-07-01T15:24:02: Analyzing "music21.test"
+2016-07-01T15:24:02: Analyzing "music21.timespans.analysis"
+2016-07-01T15:24:02: Analyzing "music21.timespans.node"
+2016-07-01T15:24:02: Analyzing "music21.timespans.spans"
+2016-07-01T15:24:02: Analyzing "music21.timespans.trees"
+2016-07-01T15:24:02: Analyzing "music21.timespans.verticality"
+2016-07-01T15:24:02: Analyzing "music21.timespans"
+2016-07-01T15:24:02: Analyzing "music21.vexflow.toMusic21j"
+2016-07-01T15:24:02: Analyzing "music21.vexflow"
+2016-07-01T15:24:02: Starting analysis of 430 modules
+2016-07-01T15:24:44: Analysis complete
+2016-07-01T15:24:44: Saving group "C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21"
+2016-07-01T15:24:45: End of group "C:\Code\MSPS\MSPS\env1\Lib\site-packages\music21"
+2016-07-01T15:24:46: Deleting 0 files

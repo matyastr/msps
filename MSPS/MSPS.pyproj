@@ -31,12 +31,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="MSPS\CompareFacade.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MSPS\MusicCompare.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="MSPS\__init__.py" />
     <Compile Include="MSPS\views.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MSPS\" />
+    <Folder Include="MSPS\Compare\" />
+    <Folder Include="MSPS\Service\" />
     <Folder Include="MSPS\static\" />
     <Folder Include="MSPS\static\content\" />
     <Folder Include="MSPS\static\fonts\" />
@@ -45,7 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="mspservice - Web Deploy.pubxml" />
-    <None Include="mspservice - Web Deploy %282%29.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="MSPS\static\content\bootstrap.css" />
     <Content Include="MSPS\static\content\bootstrap.min.css" />

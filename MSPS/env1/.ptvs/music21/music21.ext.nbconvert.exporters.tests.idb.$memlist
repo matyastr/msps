@@ -1,0 +1,14 @@
+test_html
+test_templateexporter
+test_script
+test_python
+test_export
+test_latex
+test_markdown
+test_pdf
+test_slides
+test_exporter
+test_notebook
+cheese
+base
+test_rst

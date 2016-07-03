@@ -1,0 +1,9 @@
+music21
+stringIOModule
+TestExternal
+Music21Exception
+unittest
+StreamPlayerException
+Test
+StreamPlayer
+midiTranslate

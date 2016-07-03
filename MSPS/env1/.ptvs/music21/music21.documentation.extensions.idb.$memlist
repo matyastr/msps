@@ -1,0 +1,5 @@
+_DOC_IGNORE_MODULE_OR_PACKAGE
+fixLines
+processSource
+processDocstring
+setup

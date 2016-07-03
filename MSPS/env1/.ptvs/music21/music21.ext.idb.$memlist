@@ -1,0 +1,10 @@
+webcolors
+six
+parmap
+chardet
+nbconvert
+__ALL__
+enum
+mock
+jsonpickle
+xlrd

@@ -1,0 +1,17 @@
+CorpusDocumenter
+unicode
+AttributeDocumenter
+MemberDocumenter
+re
+ModuleDocumenter
+Music21Exception
+six
+MethodDocumenter
+inspect
+music21
+ClassDocumenter
+types
+FunctionDocumenter
+ObjectDocumenter
+Documenter
+unittest
