@@ -5,7 +5,7 @@ class CompareFacade(object):
 	"""In charge of directing which comparison technique to use."""
 
 	def __init__(self):
-		self.cosineCompare = SimilarityCompare()
+		self.cosineCompare = CosineSimilarity()
 
 	def compare(self, stream, technique):
 		if technique == 'cs':

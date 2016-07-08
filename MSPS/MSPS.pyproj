@@ -37,7 +37,7 @@
     <Compile Include="MSPS\CosineSimilarity.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MSPS\SimilarityCompare.py">
+    <Compile Include="MSPS\SimilarityCompareBase.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MSPS\MusicCompare.py">

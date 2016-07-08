@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 
-class SimilarityCompare(object):
+class SimilarityCompareBase():
 	"""description of class"""
 	__metaclass__ = ABCMeta
 
