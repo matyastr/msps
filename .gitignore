@@ -243,3 +243,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+MSPS/web.debug.config
+MSPS/web.debug.config

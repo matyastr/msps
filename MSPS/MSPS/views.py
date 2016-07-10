@@ -8,26 +8,6 @@ from MSPS import app
 from MSPS.MusicCompare import *
 from flask import Flask, jsonify
 
-#tasks = [
-#    {
-#        'id': 1,
-#        'title': u'Buy groceries',
-#        'description': u'Milk, Cheese, Pizza, Fruit, Tylenol', 
-#        'done': False
-#    },
-#    {
-#        'id': 2,
-#        'title': u'Learn Python',
-#        'description': u'Need to find a good Python tutorial on the web', 
-#        'done': False
-#    },
-#	{
-#        'id': 3,
-#        'title': u'Adding a test',
-#        'd5escription': u'This is a test', 
-#        'done': False
-#    }
-#]
 
 @app.route('/', methods=['GET'])
 @app.route('/compare', methods=['GET'])

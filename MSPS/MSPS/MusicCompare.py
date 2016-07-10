@@ -8,7 +8,6 @@ class MusicCompare(object):
 		self.facade = CompareFacade()
 
 	def compare(self, musicXmlFile, compareTechnique):
-		musicXmlConverter = converter.Converter()
-		musicStream = musicXmlConverter.parseData(musicXmlFile)
+		musicStream = converter.parseData(musicXmlFile)
 		self.facade.compare(musicStream, compareTechnique)
 
