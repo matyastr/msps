@@ -5,6 +5,6 @@ class SimilarityCompareBase():
 	__metaclass__ = ABCMeta
 
 	@abstractmethod
-	def Compare(self):
+	def compare(self):
 		pass
 
