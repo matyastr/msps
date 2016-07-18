@@ -9,10 +9,10 @@ class CompareFacade(object):
 		self.cosineCompare = CosineSimilarity()
 
 
-	def compare(self, inputStream, technique):
+	def compare(self, inputStream, compareTechnique):
 		compareDict = []
 
-		if technique == 'CS':
+		if compareTechnique == 'CS':
 			compareDict = self.cosineCompare.compare(inputStream)
 
 		return compareDict
