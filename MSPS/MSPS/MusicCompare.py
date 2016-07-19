@@ -24,7 +24,7 @@ class MusicCompare(object):
 		if musicStream.metadata.composer != None:
 			inputComposer = musicStream.metadata.composer
 
-		resultsDict["Input"] = inputTitle + ", " + inputComposer
-		resultsDict["Similarity Results"] = compareDict
+		resultsDict["input"] = inputTitle + "|" + inputComposer
+		resultsDict["results"] = compareDict
 
 		return resultsDict

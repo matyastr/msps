@@ -19,7 +19,7 @@ class CosineSimilarity(SimilarityCompareBase):
 			otherVector = self.getVector(chorale)
 			similarityValue = self.cosignSimilarity(inputVector, otherVector)
 
-			compareDict[chorale.metadata.title + ", Bach"] = similarityValue
+			compareDict[chorale.metadata.title + "|Bach"] = similarityValue
 			count += 1
 
 			if count == 10:
