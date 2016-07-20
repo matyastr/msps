@@ -1,0 +1,16 @@
+﻿<Window x:Class="MSPSClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MSPSClient"
+        mc:Ignorable="d"
+        Title="Music Similarity Protection Service" Height="623" Width="967" MinWidth="385" MinHeight="248" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="txtBrowse" Height="23" Margin="10,10,140,0" TextWrapping="Wrap" TabIndex="0" IsReadOnly="True" HorizontalContentAlignment="Stretch" VerticalAlignment="Top"/>
+        <Button x:Name="btnCompare" Content="Compare" Margin="0,13,10,0" VerticalAlignment="Top" Click="BtnCompare_Click" TabIndex="2" HorizontalAlignment="Right" Width="75"/>
+        <Button x:Name="btnBrowse" Content="Browse" Margin="0,13,90,0" VerticalAlignment="Top" Click="BtnBrowse_Click" TabIndex="1" HorizontalAlignment="Right" Width="45"/>
+        <DataGrid x:Name="dtgResults" Margin="10,44,10,10" TabIndex="3"/>
+
+    </Grid>
+</Window>
