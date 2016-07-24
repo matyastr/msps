@@ -28,7 +28,7 @@ namespace MSPSClient
     /// </summary>
     public partial class MainWindow : Window
     {
-        private const string SERVICE_URI = "http://localhost:56788";
+        private const string SERVICE_URI = "http://localhost:49280";
         private const string RESOURCE = "compare";
 
         public MainWindow()
@@ -69,6 +69,8 @@ namespace MSPSClient
                 MessageBox.Show("Please select another file.", "File Does Not Exist", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
+
+            dtgResults.ItemsSource = null;
 
             Compare();
         }
