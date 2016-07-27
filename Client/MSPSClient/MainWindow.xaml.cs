@@ -19,7 +19,7 @@ using System.Xml;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using Newtonsoft.Json.Linq;
-
+using System.Net;
 
 namespace MSPSClient
 {
@@ -28,7 +28,7 @@ namespace MSPSClient
     /// </summary>
     public partial class MainWindow : Window
     {
-        private const string SERVICE_URI = "http://localhost:49280";
+        private const string SERVICE_URI = "http://localhost:55360";
         private const string RESOURCE = "compare";
 
         public MainWindow()
@@ -91,7 +91,7 @@ namespace MSPSClient
                 return;
             }
 
-            var response = RetrieveResultsFromService();
+            var response = RetrieveResultsFromService(musicXmlDoc);
 
             if (!string.IsNullOrEmpty(response))
             {
@@ -118,22 +118,24 @@ namespace MSPSClient
             Cursor = null;
         }
 
-        private string RetrieveResultsFromService()
+        private string RetrieveResultsFromService(XmlDocument musicXmlDoc)
         {
-            var client = new HttpClient()
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create(SERVICE_URI + "/" + RESOURCE);
+            httpWebRequest.Method = "POST";
+
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
-                BaseAddress = new Uri(SERVICE_URI)
-            };
+                streamWriter.Write(musicXmlDoc.OuterXml);
+                streamWriter.Flush();
+            }
 
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
 
-            var response = client.GetAsync(RESOURCE).Result;
             string result = string.Empty;
 
-            if (response.IsSuccessStatusCode)
+            using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
             {
-                result = response.Content.ReadAsStringAsync().Result;
+                result = streamReader.ReadToEnd();
             }
 
             return result;
