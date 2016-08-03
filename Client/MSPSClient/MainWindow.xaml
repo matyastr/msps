@@ -10,7 +10,8 @@
         <TextBox x:Name="txtBrowse" Height="23" Margin="10,10,140,0" TextWrapping="Wrap" TabIndex="0" IsReadOnly="True" HorizontalContentAlignment="Stretch" VerticalAlignment="Top"/>
         <Button x:Name="btnCompare" Content="Compare" Margin="0,13,10,0" VerticalAlignment="Top" Click="BtnCompare_Click" TabIndex="2" HorizontalAlignment="Right" Width="75"/>
         <Button x:Name="btnBrowse" Content="Browse" Margin="0,13,90,0" VerticalAlignment="Top" Click="BtnBrowse_Click" TabIndex="1" HorizontalAlignment="Right" Width="45"/>
-        <DataGrid x:Name="dtgResults" Margin="10,44,10,10" TabIndex="3" IsReadOnly="True"/>
+        <DataGrid x:Name="dtgResults" Margin="10,68,10,10" TabIndex="3" IsReadOnly="True"/>
+        <Label x:Name="lblCount" Content="" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="144"/>
 
     </Grid>
 </Window>

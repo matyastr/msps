@@ -100,6 +100,8 @@ namespace MSPSClient
 
                 var itemsSourceList = new List<ResultRow>();
 
+                int count = 0;
+
                 foreach (JProperty prop in resultsSet)
                 {
                     var newRow = new ResultRow()
@@ -110,9 +112,16 @@ namespace MSPSClient
                     };
 
                     itemsSourceList.Add(newRow);
+                    count++;
                 }
 
                 dtgResults.ItemsSource = itemsSourceList;
+                dtgResults.Columns[0].Width = new DataGridLength(2, DataGridLengthUnitType.Star);
+                dtgResults.Columns[1].Width = new DataGridLength(1, DataGridLengthUnitType.Star);
+                dtgResults.Columns[2].Width = new DataGridLength(1, DataGridLengthUnitType.Star);
+
+
+                lblCount.Content = count + " Results";
             }
 
             Cursor = null;
@@ -122,6 +131,7 @@ namespace MSPSClient
         {
             var httpWebRequest = (HttpWebRequest)WebRequest.Create(SERVICE_URI + "/" + RESOURCE);
             httpWebRequest.Method = "POST";
+            httpWebRequest.Timeout = 600000;
 
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
@@ -129,7 +139,13 @@ namespace MSPSClient
                 streamWriter.Flush();
             }
 
+            DateTime start = DateTime.Now;
+
             var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+
+            DateTime end = DateTime.Now;
+
+            var span = end - start;
 
             string result = string.Empty;
 
