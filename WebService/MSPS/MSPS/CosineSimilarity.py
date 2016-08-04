@@ -1,29 +1,74 @@
 from music21 import *
 from MSPS.SimilarityCompareBase import *
 from math import *
+import time
 
 class CosineSimilarity(SimilarityCompareBase):
 	"""Similarity compare implementation for Cosine similarity"""
 
+	_corpus = {}
+	_lock = 0
 
-	def __init__(self):
-		pass
+	def __init__(self):	
+		lock = 1
+
+		count = 0
+		
+		
+		a = corpus.getBachChorales()
+
+		f = len(a)
+
+		##self.FillCorpus('xml')
+
+
+		for chorale in corpus.chorales.Iterator():
+			self._corpus[chorale.metadata.title + "|Bach"] = chorale
+
+		lock = 0
+
+	def FillCorpus(self, fileExtension):
+		coreCorpus = corpus.corpora.CoreCorpus()
+		corpusFilePaths = coreCorpus.getPaths(fileExtension)
+
+		count = 0
+
+		for file in corpusFilePaths:
+			parsedScore = converter.parse(file)
+
+			title = "Anonymous"
+			composer = "Anonymous"
+
+			if parsedScore.metadata.title != None:
+				title = parsedScore.metadata.title
+
+			if parsedScore.metadata.composer != None:
+				composer = parsedScore.metadata.composer
+
+			key = title + " | " + composer
+
+			if self._corpus.__contains__(key):
+				key = fileExtension + count 
+
+			self._corpus[title + " | " + composer] = parsedScore
+			count += 1
 
 
 	def noteSimilarity(self, inputStream):
+		while self._lock != 0:
+			time.sleep(1)
+
+		
+
 		compareDict = {}
 		count = 0
 		inputVector = self.getVector(inputStream)
 
-		for chorale in corpus.chorales.Iterator():
-			otherVector = self.getVector(chorale)
+		for title, score in self._corpus.iteritems():
+			otherVector = self.getVector(score)
 			similarityValue = self.cosignSimilarity(inputVector, otherVector)
 
-			compareDict[chorale.metadata.title + "|Bach"] = similarityValue
-			count += 1
-
-			if count == 10:
-				break
+			compareDict[title] = similarityValue
 
 		return compareDict
 

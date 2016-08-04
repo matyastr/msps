@@ -7,10 +7,10 @@ from MSPS import app
 from MSPS.MusicCompare import *
 from flask import Flask, jsonify, request
 
+mcompare = MusicCompare()
 
 @app.route('/compare', methods=['POST'])
 def calculateSimilarity():
-	mcompare = MusicCompare()
 	resultsDict = mcompare.compare(request.data, "CS")
 	
 	return jsonify(resultsDict)

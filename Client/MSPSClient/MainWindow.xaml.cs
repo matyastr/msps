@@ -20,6 +20,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using Newtonsoft.Json.Linq;
 using System.Net;
+using System.ComponentModel;
 
 namespace MSPSClient
 {
@@ -108,23 +109,33 @@ namespace MSPSClient
                     {
                         Title = prop.Name.Split('|')[0],
                         Composer = prop.Name.Split('|')[1],
-                        Similarity = prop.Value.ToString()
+                        SimilarityPercent = Convert.ToDouble(prop.Value.ToString()) * 100
                     };
 
                     itemsSourceList.Add(newRow);
                     count++;
                 }
 
-                dtgResults.ItemsSource = itemsSourceList;
-                dtgResults.Columns[0].Width = new DataGridLength(2, DataGridLengthUnitType.Star);
-                dtgResults.Columns[1].Width = new DataGridLength(1, DataGridLengthUnitType.Star);
-                dtgResults.Columns[2].Width = new DataGridLength(1, DataGridLengthUnitType.Star);
-
-
+                ConfigureDataGrid(itemsSourceList);
                 lblCount.Content = count + " Results";
             }
 
             Cursor = null;
+        }
+
+        private void ConfigureDataGrid(List<ResultRow> itemsSourceList)
+        {
+            dtgResults.ItemsSource = itemsSourceList;
+            dtgResults.Columns[0].Width = new DataGridLength(2, DataGridLengthUnitType.Star);
+            dtgResults.Columns[1].Width = new DataGridLength(1, DataGridLengthUnitType.Star);
+            dtgResults.Columns[2].Width = new DataGridLength(1, DataGridLengthUnitType.Star);
+
+            dtgResults.Columns[2].Header = "Similarity Percent";
+
+            ICollectionView dataView = CollectionViewSource.GetDefaultView(dtgResults.ItemsSource);
+            dataView.SortDescriptions.Clear();
+            dataView.SortDescriptions.Add(new SortDescription("SimilarityPercent", ListSortDirection.Descending));
+            dataView.Refresh();  
         }
 
         private string RetrieveResultsFromService(XmlDocument musicXmlDoc)
@@ -161,7 +172,7 @@ namespace MSPSClient
         {
             public string Title { get; set; }
             public string Composer { get; set; }
-            public string Similarity { get; set; }
+            public double SimilarityPercent { get; set; }
         }
     }
 }
