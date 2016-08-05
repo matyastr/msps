@@ -12,20 +12,13 @@ class CosineSimilarity(SimilarityCompareBase):
 	def __init__(self):	
 		lock = 1
 
-		count = 0
-		
-		
-		a = corpus.getBachChorales()
-
-		f = len(a)
-
 		##self.FillCorpus('xml')
-
 
 		for chorale in corpus.chorales.Iterator():
 			self._corpus[chorale.metadata.title + "|Bach"] = chorale
 
 		lock = 0
+
 
 	def FillCorpus(self, fileExtension):
 		coreCorpus = corpus.corpora.CoreCorpus()
@@ -57,8 +50,6 @@ class CosineSimilarity(SimilarityCompareBase):
 	def noteSimilarity(self, inputStream):
 		while self._lock != 0:
 			time.sleep(1)
-
-		
 
 		compareDict = {}
 		count = 0
